@@ -21,6 +21,6 @@
         <!-- Drop and re-create the database schema on startup -->
         <property name="hbm2ddl.auto">create-drop</property>
         <!---   Mapping entity file -->
-        <mapping class="com.perscholas.Hib_H2memory.Student"/>
+        <mapping class="model.Student"/>
     </session-factory>
 </hibernate-configuration>
